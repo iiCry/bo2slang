@@ -4,7 +4,7 @@ A Call Of Duty Black Ops 2 sound file renamer; to be used when changing language
 # Install
 Easily done,
 1. `git clone https://github.com/iiCry/bo2slang` or just download as zip
-2. Extract or move the `bo2lang.bat` file to your BO2 directory
+2. Extract or move the `bo2lang.bat` file to your BO2 directory, **make sure it's in the root of it...**
 3. Open it up and do as instructed
 
 That is literally it..
