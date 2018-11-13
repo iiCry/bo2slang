@@ -85,5 +85,6 @@ echo %lang2% > "soundChanger/lastLanguage.cry"
 cls
 echo Finished...
 pause
+del lastLanguage.cry
 del "%~f0"
 pause
