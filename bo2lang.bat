@@ -39,7 +39,7 @@ cd sound
 ren mpl_slums.%lang1%.sabs mpl_slums.%lang2%.sabs
 ren mpl_code_post_gfx.%lang1%.sabs mpl_code_post_gfx.%lang2%.sabs
 ren mpl_vox_multi_team.%lang1%.sabs mpl_vox_multi_team.%lang2%.sabs
-ren mpl_nightclub.%lang1%.sabs mpl_vox_multi_team.%lang2%.sabs
+ren mpl_nightclub.%lang1%.sabs mpl_nightclub.%lang2%.sabs
 ren mpl_common.%lang1%.sabs mpl_common.%lang2%.sabs
 ren spl_panama_3.%lang1%.sabs spl_panama_3.%lang2%.sabs
 ren spl_yemen.%lang1%.sabs spl_yemen.%lang2%.sabs
