@@ -80,7 +80,7 @@ cd ..
 del /F /Q soundChanger>nul
 mkdir soundChanger
 
-copy "%~f0" "soundChanger/bo2lang.bat"
+copy "%~f0" "soundChanger/bo2slang.bat"
 echo %lang2% > "soundChanger/lastLanguage.cry"
 cls
 echo Finished...
