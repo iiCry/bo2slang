@@ -1,5 +1,5 @@
 # bo2slang
-A Call Of Duty Black Ops 2 sound file renamer; as that particular task is fucking annoying...
+A Call Of Duty Black Ops 2 sound file renamer; to be used when changing languages, as that particular task is fucking annoying thanks to the sound file part...
 
 # Install
 Easily done,
