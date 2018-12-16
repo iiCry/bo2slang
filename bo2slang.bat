@@ -1,35 +1,30 @@
 @echo off
 
 color 4E
-set /p lastlang=<lastLanguage.cry
+set /p lastlang=<lastLanguage.nozh
 cls
 
 echo BO2Slang 
 echo Made because fuck this task and I like changing my langs 
-echo.
-echo Place this in the root of your BO2 directory; this shit deletes itself once done 
-echo and puts a copy in a directory called "soundChanger"
-echo It also will include your previous language in the "lastLanguage.cry" file that it will put into the soundChanger directory too
-echo Remember to copy that into the root of the directory with this batch file to gurantee you functionality
 echo. 
 echo ALSO; MAKE SURE THE LANGUAGES TYPED ARE IN LOWERCASE.. for example "english", "russian" or "polish"
 
-IF EXIST "%cd%/lastLanguage.cry" (
+IF EXIST "%cd%/lastLanguage.nozh" (
 	echo You last changed your language to: %lastlang%,Assuming you used this tool...
 )
-IF NOT EXIST "%cd%/lastLanguage.cry" (
+IF NOT EXIST "%cd%/lastLanguage.nozh" (
 	echo This is the first time you have used this tool, Welcome!
-	echo If this isn't then you're missing your lastLanguage.cry file...UHHH OHHH uhhhh you seein this...
+	echo If this isn't then you're missing your lastLanguage.nozh
 )
 
-echo Made by Cry
+echo Made by nozh
 echo. 
 pause
 
 cls
 echo BO2Slang
 echo Made because fuck this task and I like changing my langs
-echo Made by Cry
+echo Made by nozh
 echo.
 set /p lang1=Language to change: 
 set /p lang2=Language you're changing to: 
@@ -77,14 +72,7 @@ ren so_rts_afghanistan.%lang1%.sabs so_rts_afghanistan.%lang2%.sabs
 ren cmn_root.%lang1%.sabs cmn_root.%lang2%.sabs
 
 cd ..
-del /F /Q soundChanger>nul
-mkdir soundChanger
-
-copy "%~f0" "soundChanger/bo2slang.bat"
-echo %lang2% > "soundChanger/lastLanguage.cry"
+echo %lang2% > "lastLanguage.nozh"
 cls
 echo Finished...
-pause
-del lastLanguage.cry
-del "%~f0"
 pause
